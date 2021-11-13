@@ -1,0 +1,7 @@
+build:
+  docker:
+    web: Dockerfile
+run:
+#   web: python manage.py runserver
+  web: gunicorn insidemarket.wsgi:application --chdir=/home/app/webapp --bind 0.0.0.0:$PORT --preload --workers 1
+ 

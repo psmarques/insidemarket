@@ -1,0 +1,19 @@
+version: "3"
+
+services:
+  appserver:
+      build: 
+          context: .
+          args:
+            DEBUG: "1"
+      image: django_web
+      container_name: django_web
+      expose:
+        - "80"
+
+  nginx:
+      build: ./nginx
+      ports:
+        - "80:81"
+      depends_on:
+        - appserver
