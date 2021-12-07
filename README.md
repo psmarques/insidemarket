@@ -1,5 +1,30 @@
-## Rodar a aplicação
+## InsideMarket 
+Bot do telegram que busca informações do mercado financeiro brasileiro e internacional como as cotações
+dos ativos, dividendos, gráficos, ajustes do dolar, indice, milho, boi, soja e diversas outras funcionalidades
+como disparo de gatilho para compra e controle de carteira.
+Foi idealizado por um grupo de pequenos investidores e está em constante desenvolvimento.
 
+Você pode testar entrando neste grupo
+https://t.me/testeMarketBot
+
+Utilize o comando /help para verificar mais detalhes:
+alguns comandos disponíveis:
+ - /ajuste win
+ - /ajuste wdo
+ - /cotação petr4
+ - /cotação vale3
+ - /grafico petr4
+ - /dividendos petr4
+ - /ranking
+ - /volume
+ - /adr PBR
+ - /adr ITUB
+ - /crypto BTC
+ - /crypto ETH
+
+
+
+## Rodar a aplicação
 Lembre-se de alterar o token na core/constant.py assim não haverá problema com o robo
 prod
 
